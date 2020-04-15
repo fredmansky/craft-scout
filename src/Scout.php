@@ -63,7 +63,7 @@ class Scout extends Plugin
             $this->controllerNamespace = 'rias\scout\console\controllers\scout';
         }
 
-        $this->validateConfig();
+        // $this->validateConfig();
         $this->registerBehaviors();
         $this->registerVariables();
         $this->registerEventHandlers();
